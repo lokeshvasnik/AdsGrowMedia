@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'Optimist';
+    src: url('./fonts/Optimist Normal.ttf');
+}
+
+:root {
+    line-height: 1.5;
+    font-weight: 400;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    --white: #fff;
+    --black: #000;
+    --main: #5965ff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: var(--white);
+    font-family: 'Optimist', -apple-system, system-ui, BlinkMacSystemFont,
+        'Optimist';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    color: white;
+}
+
+/* NAVBAR */
+.nav-link {
+    color: var(--white) !important;
+}
+.cool-link {
+    display: inline-block;
+    color: var(--white);
+    text-decoration: none;
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: var(--white);
+    transition: width 0.3s;
+}
+
+.cool-link:hover::after {
+    width: 100%;
+    transition: width 0.3s;
+}
+/* SECTION MAIN  */
+
+#section {
+    background-color: var(--main);
+}
+
+/* ABOUT US */
+.primary__card {
+    background-color: var(--main);
+}
+
+/* CHOOSE US  */
+
+.secondary__card {
+    background-color: #2b2a2a;
+    color: white;
+}
+
+/* CARDS */
+
+/* Code for next video */
+.card {
+    background-color: #2b2a2a !important;
+    color: var(--pure);
+    padding: 20px;
+    width: 100%;
+}
+
+.cardBox {
+    border: none;
+    background: #2d2c2d;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    color: var(--pure);
+    cursor: pointer;
+    margin: 20px 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.cardBox:hover {
+    translate: 0px -11px;
+    transition: all 0.3s ease-in-out;
+}
+
+.card__img {
+    width: 126px;
+    height: 126px;
+}
+
+/* UTILITY CLASS */
+
+.primary__color {
+    color: var(--black);
+}

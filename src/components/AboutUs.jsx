@@ -18,9 +18,16 @@ const AboutUs = () => {
                     </div>
                 </div>
             </div>
-            <div className="container   py-5 d-flex justify-content-start">
-                <div className="p-5 primary__card border-0 card d-flex justify-content-center align-items-center ">
-                    <div className="text-start">
+            <div className="container py-3 d-flex justify-content-start">
+                <div className="p-5 primary__card border-0 card ">
+                    <div className="d-flex justify-content-center align-items-center ">
+                        <div>
+                            <img
+                                className="w-100"
+                                src="https://assets.cdn.filesafe.space/x0N8K0M9cXLQQc087Z2v/media/64257b99f2c7c23519457f17.png"
+                                alt="setting"
+                            />
+                        </div>
                         <p>
                             At AdsGrowMedia, we offer a wide range of digital
                             advertising services to help businesses of all sizes
@@ -35,9 +42,16 @@ const AboutUs = () => {
                     </div>
                 </div>
             </div>
-            <div className="container   py-5 d-flex justify-content-start">
-                <div className="p-5 primary__card border-0 card d-flex justify-content-center align-items-center ">
-                    <div className="text-start">
+            <div className="container py-3 d-flex justify-content-start">
+                <div className="p-5 primary__card border-0 card  ">
+                    <div className="d-flex justify-content-center align-items-center">
+                        <div>
+                            <img
+                                className="w-100"
+                                src="https://assets.cdn.filesafe.space/x0N8K0M9cXLQQc087Z2v/media/64257b99f2c7c23519457f17.png"
+                                alt="setting"
+                            />
+                        </div>
                         <p>
                             We take a results-driven approach to Facebook and
                             Google Ads management, starting with a comprehensive

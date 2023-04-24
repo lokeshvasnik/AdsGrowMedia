@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import logo from '../assets/logo.png';
 const Navbar = () => {
     return (
         <div id="section" className="container-fluid">
             <nav className="navbar navbar-expand-lg ">
                 <div className="container">
                     <Link className="navbar-brand nav-link" to="/">
-                        AdsGrowMedia
+                        <img className="w-25" src={logo} alt="logo" />
                     </Link>
                     <button
                         className="navbar-toggler"

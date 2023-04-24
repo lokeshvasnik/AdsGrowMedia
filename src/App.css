@@ -19,7 +19,7 @@
 * {
     margin: 0;
     padding: 0;
-    color: var(--white);
+
     font-family: 'Optimist', -apple-system, system-ui, BlinkMacSystemFont,
         'Optimist';
 }
@@ -31,7 +31,7 @@ h4,
 h5,
 h6,
 p {
-    color: white;
+    color: var(--black);
 }
 
 /* NAVBAR */
@@ -60,7 +60,7 @@ p {
 /* SECTION MAIN  */
 
 #section {
-    background-color: var(--main);
+    background-color: var(--main) !important;
 }
 
 /* ABOUT US */
@@ -79,7 +79,6 @@ p {
 
 /* Code for next video */
 .card {
-    background-color: #2b2a2a !important;
     color: var(--pure);
     padding: 20px;
     width: 100%;
@@ -110,4 +109,9 @@ p {
 
 .primary__color {
     color: var(--black);
+}
+
+/* FOOTER  */
+#fifth__section {
+    background-color: var(--main);
 }

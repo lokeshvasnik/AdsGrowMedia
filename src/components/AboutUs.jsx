@@ -1,13 +1,14 @@
 import React from 'react';
-
+import settings from '../assets/settings.svg';
+import settings2 from '../assets/settings2.svg';
 const AboutUs = () => {
     return (
         <section id="third__section" className="py-5">
             <div className="container d-flex justify-content-start">
                 <div className="p-3 border-0 card d-flex justify-content-center align-items-center ">
                     <div className="text-center">
-                        <h1 className="primary__color">About Us</h1>
-                        <p className="primary__color">
+                        <h1>About Us</h1>
+                        <p>
                             Our agency is dedicated to helping businesses of all
                             sizes achieve their online goals through effective
                             digital advertising strategies. With our expertise
@@ -21,14 +22,14 @@ const AboutUs = () => {
             <div className="container py-3 d-flex justify-content-start">
                 <div className="p-5 primary__card border-0 card ">
                     <div className="d-flex justify-content-center align-items-center ">
-                        <div>
+                        <div className="me-4">
                             <img
                                 className="w-100"
-                                src="https://assets.cdn.filesafe.space/x0N8K0M9cXLQQc087Z2v/media/64257b99f2c7c23519457f17.png"
+                                src={settings}
                                 alt="setting"
                             />
                         </div>
-                        <p>
+                        <p className="primary__color">
                             At AdsGrowMedia, we offer a wide range of digital
                             advertising services to help businesses of all sizes
                             achieve their goals. Our services include Facebook
@@ -45,14 +46,14 @@ const AboutUs = () => {
             <div className="container py-3 d-flex justify-content-start">
                 <div className="p-5 primary__card border-0 card  ">
                     <div className="d-flex justify-content-center align-items-center">
-                        <div>
+                        <div className="me-3">
                             <img
                                 className="w-100"
-                                src="https://assets.cdn.filesafe.space/x0N8K0M9cXLQQc087Z2v/media/64257b99f2c7c23519457f17.png"
+                                src={settings2}
                                 alt="setting"
                             />
                         </div>
-                        <p>
+                        <p className="primary__color">
                             We take a results-driven approach to Facebook and
                             Google Ads management, starting with a comprehensive
                             analysis of your business, target audience, and

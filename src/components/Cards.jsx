@@ -15,10 +15,8 @@ const Cards = () => {
                                 />
                             </div>
                             <div className="text-center">
-                                <p className="primary_text hidden">
-                                    Our Approach
-                                </p>
-                                <p className="p-3 hidden">
+                                <p className="primary__color">Our Approach</p>
+                                <p className="p-3 primary__color">
                                     At AdsGrowMedia, we believe in taking a
                                     holistic approach to digital advertising.
                                     This means that we take the time to
@@ -43,10 +41,10 @@ const Cards = () => {
                                 />
                             </div>
                             <div className="text-center">
-                                <p className="primary_text py-2 hidden">
+                                <p className="primary__color py-2">
                                     Our Results
                                 </p>
-                                <p className="p-3 hidden">
+                                <p className="p-3 primary__color">
                                     We are proud of the results we have achieved
                                     for our clients. Our campaigns have helped
                                     businesses of all sizes increase website
@@ -69,10 +67,8 @@ const Cards = () => {
                                 />
                             </div>
                             <div className="text-center">
-                                <p className="primary_text hidden">
-                                    Our Mission
-                                </p>
-                                <p className="p-3 hidden">
+                                <p className="primary__color ">Our Mission</p>
+                                <p className="p-3 primary__color">
                                     Our mission at AdsGrowMedia is to help
                                     businesses achieve their digital advertising
                                     goals through effective and efficient

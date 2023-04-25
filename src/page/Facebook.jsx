@@ -27,7 +27,7 @@ const Facebook = () => {
                         Facebook Ads to grow their business and reach new
                         customers.
                     </p>
-                    <p>What are Facebook Ads?</p>
+                    <p className="fs-3">What are Facebook Ads?</p>
                     <p>
                         Facebook Ads is an advertising platform that allows
                         businesses to create and display ads to potential
@@ -39,7 +39,9 @@ const Facebook = () => {
                         and more, which allows businesses to choose the format
                         that works best for their goals.
                     </p>
-                    <p>How Can Facebook Ads Help Your Business Grow?</p>
+                    <p className="fs-3">
+                        How Can Facebook Ads Help Your Business Grow?
+                    </p>
                     <div>
                         <p>
                             Targeted Advertising: With Facebook Ads, businesses
@@ -83,7 +85,7 @@ const Facebook = () => {
                             convert.
                         </p>
                     </div>
-                    <p>Tips for Success with Facebook Ads</p>
+                    <p className="fs-3">Tips for Success with Facebook Ads</p>
                     <div>
                         <p>
                             Set Clear Goals: Before launching a Facebook Ads
@@ -122,7 +124,7 @@ const Facebook = () => {
                             businesses can optimize their campaigns for success.
                         </p>
                     </div>
-                    <p>Conclusion</p>
+                    <p className="fs-3">Conclusion</p>
                     <div>
                         <p>
                             Facebook Ads can be an effective way for businesses

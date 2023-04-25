@@ -8,10 +8,10 @@ const Main = () => {
                 <div className="container">
                     <div className="row py-lg-5">
                         <div className="col-lg-6 d-flex flex-column justify-content-center ">
-                            <h1 className="fw-bold hidden">
+                            <h1 className="fw-bold hidden primary__color">
                                 Welcome to AdsGrowMedia
                             </h1>
-                            <p className="w-50 hidden">
+                            <p className="w-50 primary__color">
                                 Your Trusted Partner For Facebook Ads And Google
                                 Ads
                             </p>

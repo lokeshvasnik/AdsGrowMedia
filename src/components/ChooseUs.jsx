@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 const ChooseUs = () => {
     return (
         <>
@@ -8,8 +7,8 @@ const ChooseUs = () => {
                 <div className="container d-flex justify-content-start">
                     <div className="p-3 border-0 card d-flex justify-content-center align-items-center ">
                         <div className="text-center">
-                            <h1 className="primary__color">Why Choose Us</h1>
-                            <p className="primary__color">
+                            <h1>Why Choose Us</h1>
+                            <p>
                                 At AdsGrowMedia, we pride ourselves on
                                 delivering exceptional service and results for
                                 our clients. We are passionate about what we do,

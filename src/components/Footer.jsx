@@ -12,16 +12,16 @@ const Footer = () => {
                 ></path>
             </svg>
             <footer id="fifth__section">
-                <div class="container py-5">
-                    <div class="row">
-                        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center">
-                            <h2>Contact Us</h2>
-                            <span class=" text-center">
+                <div className="container py-5">
+                    <div className="row">
+                        <div className="col-lg-6 d-flex flex-column justify-content-center align-items-center">
+                            <h2 className="primary__color">Contact Us</h2>
+                            <span className="primary__color text-center">
                                 Office Address: 155, Sanjay Nagar, Ghaziabad,
                                 Uttar Pradesh 201002
                             </span>
                         </div>
-                        <div class="col-lg-6 d-flex justify-content-center align-items-center  text-cetner">
+                        <div className="col-lg-6 d-flex justify-content-center align-items-center  text-cetner">
                             <ul className="d-flex flex-column justify-content-center align-items-center">
                                 <NavLink className="nav-link mb-2 cool-link">
                                     Home

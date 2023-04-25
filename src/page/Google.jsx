@@ -26,7 +26,7 @@ const Google = () => {
                         we'll explore how businesses can use Google Ads to grow
                         their business and reach new customers.
                     </p>
-                    <p>What are Google Ads?</p>
+                    <p className="fs-3">What are Google Ads?</p>
                     <p>
                         Google Ads is an advertising platform that allows
                         businesses to create and display ads to potential
@@ -38,7 +38,9 @@ const Google = () => {
                         and shopping ads, which allows businesses to choose the
                         format that works best for their goals.
                     </p>
-                    <p>How Can Google Ads Help Your Business Grow?</p>
+                    <p className="fs-3">
+                        How Can Google Ads Help Your Business Grow?
+                    </p>
                     <div>
                         <p>
                             Targeted Advertising: With Google Ads, businesses
@@ -82,7 +84,7 @@ const Google = () => {
                             convert.
                         </p>
                     </div>
-                    <p>Tips for Success with Google Ads</p>
+                    <p className="fs-3">Tips for Success with Google Ads</p>
                     <div>
                         <p>
                             Set Clear Goals: Before launching a Google Ads
@@ -120,7 +122,7 @@ const Google = () => {
                             businesses can optimize their campaigns for success.
                         </p>
                     </div>
-                    <p>Conclusion</p>
+                    <p className="fs-3">Conclusion</p>
                     <div>
                         <p>
                             Google Ads can be an effective way for businesses to

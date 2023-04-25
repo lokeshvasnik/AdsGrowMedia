@@ -21,7 +21,7 @@ const AboutUs = () => {
             </div>
             <div className="container py-3 d-flex justify-content-start">
                 <div className="p-5 primary__card border-0 card ">
-                    <div className="d-flex justify-content-center align-items-center ">
+                    <div className="d-flex inside  justify-content-center align-items-center ">
                         <div className="me-4">
                             <img
                                 className="w-100"
@@ -45,7 +45,7 @@ const AboutUs = () => {
             </div>
             <div className="container py-3 d-flex justify-content-start">
                 <div className="p-5 primary__card border-0 card  ">
-                    <div className="d-flex justify-content-center align-items-center">
+                    <div className="d-flex inside justify-content-center align-items-center">
                         <div className="me-3">
                             <img
                                 className="w-100"
